@@ -1,0 +1,27 @@
+[
+  { "type": "ENTER", "index": "items" },
+  {
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": {
+      "order": 14,
+      "name": {
+        "en_US": "Emilie Lea"
+      },
+      "description": {
+        "en_US": "Alternate skin based on Emilie's costume."
+      },
+      "type": "TOGGLE",
+      "rarity": 0,
+      "cost": 0,
+      "level": 1,
+      "icon": "item-toggle",
+      "noTrack": true,
+      "effect": {
+        "sheet": "",
+        "name": null
+      },
+      "customItem": "emilie-lea"
+    }
+  },
+  { "type": "EXIT" }
+]

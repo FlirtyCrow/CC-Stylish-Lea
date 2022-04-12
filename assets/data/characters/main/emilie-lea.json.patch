@@ -1,0 +1,21 @@
+[
+  { "type": "IMPORT", "src": "game:data/characters/main/lea.json" },
+
+  { "type": "SET_KEY", "index": "animSheet", "content": "emilie-lea" },
+
+  { "type": "ENTER", "index": "face" },
+
+  { "type": "ENTER", "index": "subImages" },
+  { "type": "SET_KEY", "index": "panic", "content": "emilie-lea-panic.png" },
+  {
+    "type": "SET_KEY",
+    "index": "special",
+    "content": "emilie-lea-special.png"
+  },
+  { "type": "SET_KEY", "index": "hand", "content": "emilie-lea-hand.png" },
+  { "type": "EXIT" },
+
+  { "type": "SET_KEY", "index": "src", "content": "emilie-lea.png" },
+
+  { "type": "EXIT" }
+]

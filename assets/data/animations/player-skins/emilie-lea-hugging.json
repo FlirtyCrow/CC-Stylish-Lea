@@ -1,0 +1,336 @@
+{
+  "DOCTYPE": "MULTI_DIR_ANIMATION",
+  "namedSheets": {
+    "schneider1": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 0,
+      "width": 32,
+      "height": 40
+    },
+    "schneider2": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 40,
+      "width": 32,
+      "height": 40
+    },
+    "schneider3": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 80,
+      "width": 32,
+      "height": 40
+    },
+    "emilie1": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 120,
+      "width": 32,
+      "height": 40
+    },
+    "ctron1": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 160,
+      "width": 32,
+      "height": 40
+    },
+    "apollo1": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 200,
+      "width": 32,
+      "height": 40
+    },
+    "mixed": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "xCount": 3,
+      "offX": 160,
+      "offY": 40,
+      "width": 32,
+      "height": 40
+    },
+    "mixed2": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 128,
+      "offY": 200,
+      "width": 32,
+      "height": 40
+    },
+    "mixed3": {
+      "src": "media/entity/player/emilie-lea-hugging.png",
+      "offX": 0,
+      "offY": 240,
+      "width": 32,
+      "height": 48
+    }
+  },
+  "shapeType": "Y_FLAT",
+  "offset": { "x": 0, "y": -4, "z": 0 },
+  "SUB": [
+    {
+      "sheet": "schneider1",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "hug",
+          "time": 0.166,
+          "repeat": false,
+          "frames": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "name": "hugLeaToo",
+          "time": 0.166,
+          "repeat": false,
+          "frames": [6, 7]
+        },
+        {
+          "name": "hugPost",
+          "time": 0.166,
+          "repeat": false,
+          "frames": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "schneider2",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "leaHug",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [0, 1, 2, 3, 4, 3, 4, 3]
+        },
+        {
+          "name": "leaHugPost",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "schneider3",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "confusedHug",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [0, 1, 2, 3, 4, 3, 4, 3, 4, 3]
+        },
+        {
+          "name": "confusedHugPost",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "emilie1",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "emilieHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 1, 2, 3, 4, 5, 4, 5, 4, 5]
+        },
+        {
+          "name": "emilieHugLoop",
+          "time": 0.066,
+          "repeat": true,
+          "frames": [5, 5, 5, 5, 5, 5, 4, 5, 4, 5]
+        },
+        {
+          "name": "emilieHugPost",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "ctron1",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "ctronHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 1, 2, 3, 4, 5, 4, 5, 4, 5]
+        },
+        {
+          "name": "ctronHugPost",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [2, 1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "mixed",
+      "dirs": "1",
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        {
+          "name": "buggyHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 0],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "hlinHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [1, 1],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "grumpyHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [2, 2],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "shizukaHug",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [3, 3, 3, 3],
+          "framesGfxOffset": [1, 0, 0, 0, 1, 0, 0, 0]
+        },
+        {
+          "name": "satoshiHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [4, 4],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "sergeyHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [5, 5],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "lukeAirHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [7, 7],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "jetHug",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [8, 8],
+          "framesGfxOffset": [0, -4, 0, -2]
+        }
+      ]
+    },
+    {
+      "sheet": "apollo1",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "dirOffsets": [
+        [4, 0, 0],
+        [-4, 0, 0]
+      ],
+      "SUB": [
+        {
+          "name": "apolloHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 1, 2]
+        },
+        {
+          "name": "apolloHugLoop",
+          "time": 0.066,
+          "repeat": true,
+          "frames": [2, 3, 2, 3, 2, 2, 2]
+        },
+        {
+          "name": "apolloHugPost",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [1, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "mixed2",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "carlaHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 0],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        {
+          "name": "ctronHugForce",
+          "time": 0.066,
+          "repeat": true,
+          "frames": [1, 2, 1, 2, 1, 1]
+        }
+      ]
+    },
+    {
+      "sheet": "mixed3",
+      "dirs": "1",
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        {
+          "name": "joernPollyHug",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [0, 0],
+          "framesGfxOffset": [0, 1, 0, 0]
+        }
+      ]
+    }
+  ]
+}
+

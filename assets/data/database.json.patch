@@ -1,0 +1,35 @@
+[
+  { "type": "INIT_KEY", "index": "playerSkins", "content": {} },
+  { "type": "ENTER", "index": "playerSkins" },
+  {
+    "type": "SET_KEY",
+    "index": "emilie-lea",
+    "content": {
+      "id": "emilie-lea",
+      "item": "emilie-lea",
+      "autoAdd": true,
+      "type": "Appearance",
+      "settings": {
+				"noHide": true,
+        "sheet": "player-skins.emilie-lea",
+				"anims": {
+					"player": "player-skins.emilie-lea",
+					"player-hugging": "player-skins.emilie-lea-hugging",
+					"player-poses": "player-skins.emilie-lea-poses",
+					"player-sleeping": "player-skins.emilie-lea-sleeping",
+					"player-weak": "player-skins.emilie-lea-weak"
+				},
+        "gui": "emilie-lea.png",
+				"character": "main.emilie-lea"
+      }
+    }
+  },
+  { "type": "EXIT" },
+
+  { "type": "ENTER", "index": ["toggle-sets", "skins", "items"] },
+  {
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": "emilie-lea"
+  },
+  { "type": "EXIT", "count": 3 }
+]
