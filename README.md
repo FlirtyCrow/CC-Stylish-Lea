@@ -2,7 +2,8 @@
 Color swap and modification of Lea's outfit(sprites, portrait, inventory) for CrossCode.
 
 ## Install: 
-	Download the code and uncompress it in it's own folder inside `assets/mods`
+	Download the .ccmod file on the Release section 
+	and drop it inside the `assets/mods` folder.
 
 ## Dependencies:
 	CCLoader: Mod loader for CrossCode
