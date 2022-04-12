@@ -2,49 +2,49 @@
   "DOCTYPE": "MULTI_DIR_ANIMATION",
   "namedSheets": {
     "schneider1": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 0,
       "width": 32,
       "height": 40
     },
     "schneider2": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 40,
       "width": 32,
       "height": 40
     },
     "schneider3": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 80,
       "width": 32,
       "height": 40
     },
     "emilie1": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 120,
       "width": 32,
       "height": 40
     },
     "ctron1": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 160,
       "width": 32,
       "height": 40
     },
     "apollo1": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 200,
       "width": 32,
       "height": 40
     },
     "mixed": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "xCount": 3,
       "offX": 160,
       "offY": 40,
@@ -52,14 +52,14 @@
       "height": 40
     },
     "mixed2": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 128,
       "offY": 200,
       "width": 32,
       "height": 40
     },
     "mixed3": {
-      "src": "media/entity/player/emilie-lea-hugging.png",
+      "src": "media/entity/player/stylish-lea-hugging.png",
       "offX": 0,
       "offY": 240,
       "width": 32,
@@ -333,4 +333,3 @@
     }
   ]
 }
-

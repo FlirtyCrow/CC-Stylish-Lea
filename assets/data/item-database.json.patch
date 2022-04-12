@@ -5,7 +5,7 @@
     "content": {
       "order": 14,
       "name": {
-        "en_US": "Emilia"
+        "en_US": "Stylish Lea"
       },
       "description": {
         "en_US": "Alternate skin based on Emilie's costume."
@@ -20,7 +20,7 @@
         "sheet": "",
         "name": null
       },
-      "customItem": "emilia"
+      "customItem": "stylish-lea"
     }
   },
   { "type": "EXIT" }

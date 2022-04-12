@@ -3,24 +3,24 @@
   { "type": "ENTER", "index": "playerSkins" },
   {
     "type": "SET_KEY",
-    "index": "emilia",
+    "index": "stylish-lea",
     "content": {
-      "id": "emilia",
-      "item": "emilia",
+      "id": "stylish-lea",
+      "item": "stylish-lea",
       "autoAdd": true,
       "type": "Appearance",
       "settings": {
 				"noHide": true,
-        "sheet": "player-skins.emilie-lea",
+        "sheet": "player-skins.stylish-lea",
 				"anims": {
-					"player": "player-skins.emilie-lea",
-					"player-hugging": "player-skins.emilie-lea-hugging",
-					"player-poses": "player-skins.emilie-lea-poses",
-					"player-sleeping": "player-skins.emilie-lea-sleeping",
-					"player-weak": "player-skins.emilie-lea-weak"
+					"player": "player-skins.stylish-lea",
+					"player-hugging": "player-skins.stylish-lea-hugging",
+					"player-poses": "player-skins.stylish-lea-poses",
+					"player-sleeping": "player-skins.stylish-lea-sleeping",
+					"player-weak": "player-skins.stylish-lea-weak"
 				},
-        "gui": "emilie-lea.png",
-				"character": "main.emilie-lea"
+        "gui": "stylish-lea.png",
+				"character": "main.stylish-lea"
       }
     }
   },
