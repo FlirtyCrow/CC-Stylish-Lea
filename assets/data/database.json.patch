@@ -3,10 +3,10 @@
   { "type": "ENTER", "index": "playerSkins" },
   {
     "type": "SET_KEY",
-    "index": "emilie-lea",
+    "index": "emilia",
     "content": {
-      "id": "emilie-lea",
-      "item": "emilie-lea",
+      "id": "emilia",
+      "item": "emilia",
       "autoAdd": true,
       "type": "Appearance",
       "settings": {
@@ -29,7 +29,7 @@
   { "type": "ENTER", "index": ["toggle-sets", "skins", "items"] },
   {
     "type": "ADD_ARRAY_ELEMENT",
-    "content": "emilie-lea"
+    "content": "emilia"
   },
   { "type": "EXIT", "count": 3 }
 ]
