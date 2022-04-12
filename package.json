@@ -1,8 +1,0 @@
-{
-  "name": "Emilie Lea",
-  "version": "1.1.0",
-  "module": true,
-  "ccmodDependencies": {
-    "item-api": ">=0.4.1"
-  }
-}

@@ -1,0 +1,11 @@
+{
+  "id": "emilie-lea",
+  "title": "Emilie Lea",
+  "description": "Alternative Skin for Lea based on Emilie costume",
+  "icons": {
+    "24": "icon.png"
+  },
+  "dependencies": {
+    "item-api": ">=0.4.1"
+  }
+}
