@@ -2,21 +2,21 @@
   "DOCTYPE": "MULTI_DIR_ANIMATION",
   "namedSheets": {
     "poses": {
-      "src": "media/entity/player/emilie-lea-poses.png ",
+      "src": "media/entity/player/stylish-lea-poses.png ",
       "offX": 0,
       "offY": 0,
       "width": 32,
       "height": 32
     },
     "poses4dir": {
-      "src": "media/entity/player/emilie-lea-poses.png ",
+      "src": "media/entity/player/stylish-lea-poses.png ",
       "offX": 0,
       "offY": 32,
       "width": 32,
       "height": 32
     },
     "sideWalk": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 3,
       "offX": 0,
       "offY": 128,
@@ -24,7 +24,7 @@
       "height": 32
     },
     "sidePoses": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 7,
       "offX": 96,
       "offY": 128,
@@ -32,7 +32,7 @@
       "height": 32
     },
     "sidePoses2": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 2,
       "offX": 320,
       "offY": 128,
@@ -40,7 +40,7 @@
       "height": 32
     },
     "sleepPoses": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 3,
       "offX": 392,
       "offY": 128,
@@ -48,14 +48,14 @@
       "height": 32
     },
     "sleepPoses2": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "offX": 432,
       "offY": 96,
       "width": 40,
       "height": 32
     },
     "drill": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 3,
       "offX": 0,
       "offY": 192,
@@ -63,7 +63,7 @@
       "height": 40
     },
     "drillSide": {
-      "src": "media/entity/player/emilie-lea-poses.png",
+      "src": "media/entity/player/stylish-lea-poses.png",
       "xCount": 3,
       "offX": 0,
       "offY": 232,
@@ -427,4 +427,3 @@
     }
   ]
 }
-

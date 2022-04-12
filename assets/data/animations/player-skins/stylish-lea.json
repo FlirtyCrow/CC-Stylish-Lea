@@ -2,14 +2,14 @@
   "DOCTYPE": "MULTI_DIR_ANIMATION",
   "namedSheets": {
     "walk": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "offX": 0,
       "offY": 0,
       "width": 32,
       "height": 32
     },
     "walk2": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "xCount": 6,
       "offX": 192,
       "offY": 320,
@@ -17,7 +17,7 @@
       "height": 32
     },
     "walk3": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "xCount": 16,
       "offX": 0,
       "offY": 480,
@@ -25,14 +25,14 @@
       "height": 32
     },
     "poses": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "offX": 0,
       "offY": 576,
       "width": 32,
       "height": 32
     },
     "itemPoses": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "xCount": 4,
       "offX": 384,
       "offY": 320,
@@ -40,21 +40,21 @@
       "height": 32
     },
     "idlePoses": {
-      "src": "media/entity/player/emilie-lea-move.png",
+      "src": "media/entity/player/stylish-lea-move.png",
       "offX": 384,
       "offY": 448,
       "width": 32,
       "height": 32
     },
     "throw": {
-      "src": "media/entity/player/emilie-lea-throw.png",
+      "src": "media/entity/player/stylish-lea-throw.png",
       "offX": 0,
       "offY": 0,
       "width": 32,
       "height": 32
     },
     "special": {
-      "src": "media/entity/player/emilie-lea-throw.png",
+      "src": "media/entity/player/stylish-lea-throw.png",
       "offX": 0,
       "offY": 416,
       "width": 32,
@@ -888,4 +888,3 @@
     }
   ]
 }
-

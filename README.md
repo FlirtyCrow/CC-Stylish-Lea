@@ -1,4 +1,4 @@
-# CC-Alternate-Lea
+# CC-Stylish-Lea
 Color swap and modification of Lea's outfit(sprites, portrait, inventory) for CrossCode.
 
 ## Install: 

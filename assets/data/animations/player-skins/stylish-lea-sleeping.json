@@ -2,7 +2,7 @@
   "DOCTYPE": "MULTI_DIR_ANIMATION",
   "namedSheets": {
     "sleeping": {
-      "src": "media/entity/player/emilie-lea-sleeping.png",
+      "src": "media/entity/player/stylish-lea-sleeping.png",
       "offX": 0,
       "offY": 0,
       "width": 40,
@@ -43,4 +43,3 @@
     }
   ]
 }
-

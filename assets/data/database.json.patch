@@ -3,24 +3,26 @@
   { "type": "ENTER", "index": "playerSkins" },
   {
     "type": "SET_KEY",
-    "index": "emilie-lea",
+    "index": "stylish-lea",
     "content": {
-      "id": "emilie-lea",
-      "item": "emilie-lea",
+      "id": "stylish-lea",
+      "item": "stylish-lea",
       "autoAdd": true,
       "type": "Appearance",
       "settings": {
 				"noHide": true,
-        "sheet": "player-skins.emilie-lea",
+        "sheet": "player-skins.stylish-lea",
 				"anims": {
-					"player": "player-skins.emilie-lea",
-					"player-hugging": "player-skins.emilie-lea-hugging",
-					"player-poses": "player-skins.emilie-lea-poses",
-					"player-sleeping": "player-skins.emilie-lea-sleeping",
-					"player-weak": "player-skins.emilie-lea-weak"
+					"player": "player-skins.stylish-lea",
+					"player-hugging": "player-skins.stylish-lea-hugging",
+					"player-poses": "player-skins.stylish-lea-poses",
+					"player-poses-debug": "player-skins.stylish-lea-poses-debug",
+					"player-sleeping": "player-skins.stylish-lea-sleeping",
+					"player-weak": "player-skins.stylish-lea-weak",
+          "npc.captain": "npc.stylish-lea-captain"
 				},
-        "gui": "emilie-lea.png",
-				"character": "main.emilie-lea"
+        "gui": "stylish-lea.png",
+				"character": "main.stylish-lea"
       }
     }
   },
@@ -29,7 +31,7 @@
   { "type": "ENTER", "index": ["toggle-sets", "skins", "items"] },
   {
     "type": "ADD_ARRAY_ELEMENT",
-    "content": "emilie-lea"
+    "content": "stylish-lea"
   },
   { "type": "EXIT", "count": 3 }
 ]
