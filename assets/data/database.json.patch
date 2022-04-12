@@ -16,8 +16,10 @@
 					"player": "player-skins.stylish-lea",
 					"player-hugging": "player-skins.stylish-lea-hugging",
 					"player-poses": "player-skins.stylish-lea-poses",
+					"player-poses-debug": "player-skins.stylish-lea-poses-debug",
 					"player-sleeping": "player-skins.stylish-lea-sleeping",
-					"player-weak": "player-skins.stylish-lea-weak"
+					"player-weak": "player-skins.stylish-lea-weak",
+          "npc.captain": "npc.stylish-lea-captain"
 				},
         "gui": "stylish-lea.png",
 				"character": "main.stylish-lea"
@@ -29,7 +31,7 @@
   { "type": "ENTER", "index": ["toggle-sets", "skins", "items"] },
   {
     "type": "ADD_ARRAY_ELEMENT",
-    "content": "emilia"
+    "content": "stylish-lea"
   },
   { "type": "EXIT", "count": 3 }
 ]
