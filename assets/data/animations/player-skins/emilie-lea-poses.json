@@ -1,0 +1,430 @@
+{
+  "DOCTYPE": "MULTI_DIR_ANIMATION",
+  "namedSheets": {
+    "poses": {
+      "src": "media/entity/player/emilie-lea-poses.png ",
+      "offX": 0,
+      "offY": 0,
+      "width": 32,
+      "height": 32
+    },
+    "poses4dir": {
+      "src": "media/entity/player/emilie-lea-poses.png ",
+      "offX": 0,
+      "offY": 32,
+      "width": 32,
+      "height": 32
+    },
+    "sideWalk": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 3,
+      "offX": 0,
+      "offY": 128,
+      "width": 32,
+      "height": 32
+    },
+    "sidePoses": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 7,
+      "offX": 96,
+      "offY": 128,
+      "width": 32,
+      "height": 32
+    },
+    "sidePoses2": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 2,
+      "offX": 320,
+      "offY": 128,
+      "width": 32,
+      "height": 32
+    },
+    "sleepPoses": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 3,
+      "offX": 392,
+      "offY": 128,
+      "width": 40,
+      "height": 32
+    },
+    "sleepPoses2": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "offX": 432,
+      "offY": 96,
+      "width": 40,
+      "height": 32
+    },
+    "drill": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 3,
+      "offX": 0,
+      "offY": 192,
+      "width": 32,
+      "height": 40
+    },
+    "drillSide": {
+      "src": "media/entity/player/emilie-lea-poses.png",
+      "xCount": 3,
+      "offX": 0,
+      "offY": 232,
+      "width": 32,
+      "height": 24
+    }
+  },
+  "shapeType": "Y_FLAT",
+  "offset": { "x": 0, "y": -4, "z": 0 },
+  "SUB": [
+    {
+      "sheet": "poses",
+      "dirs": 1,
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        { "name": "hidden", "time": 0.1, "repeat": false, "frames": [-1] },
+        {
+          "name": "floatEyeClosed",
+          "time": 0.2,
+          "repeat": true,
+          "frames": [0, 1, 2, 1]
+        },
+        {
+          "name": "crossFingers",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [3, 4, 5]
+        },
+        { "name": "sitNudge", "time": 0.1, "repeat": false, "frames": [6] },
+        { "name": "slapPre", "time": 0.066, "repeat": false, "frames": [7] },
+        { "name": "slap", "time": 0.066, "repeat": false, "frames": [8, 9] },
+        {
+          "name": "leaning",
+          "offset": { "x": 0, "y": -5, "z": 0 },
+          "time": 0.066,
+          "repeat": false,
+          "frames": [10]
+        }
+      ]
+    },
+    {
+      "sheet": "poses4dir",
+      "dirs": "4",
+      "flipX": [0, 0, 0, 1],
+      "tileOffsets": [0, 16, 32, 16],
+      "SUB": [
+        {
+          "name": "landOnGround",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [4]
+        },
+        {
+          "name": "saltoBack",
+          "time": 0.07,
+          "repeat": true,
+          "frames": [0, 1, 2, 3]
+        },
+        { "name": "sit", "time": 0.07, "repeat": false, "frames": [5] },
+        {
+          "name": "sitFaceUpRight",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [6]
+        },
+        {
+          "name": "sitFaceDownLeft",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [7]
+        },
+        { "name": "sitGround", "time": 0.07, "repeat": false, "frames": [8] },
+        {
+          "name": "sitGroundFaceUpRight",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [9]
+        },
+        {
+          "name": "sitGroundFaceDownLeft",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [10]
+        },
+        { "name": "typing", "time": 0.2, "repeat": true, "frames": [11, 12] }
+      ]
+    },
+    {
+      "sheet": "sideWalk",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "viewNorthWalk",
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [0, 1, 2, 1]
+        },
+        {
+          "name": "viewSouthWalk",
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [3, 4, 5, 4]
+        }
+      ]
+    },
+    {
+      "sheet": "sidePoses",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "inverseSit",
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [0]
+        },
+        {
+          "name": "inverseSitFaceUp",
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [1]
+        },
+        {
+          "name": "hug",
+          "offset": { "x": 0, "y": 4, "z": 8 },
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [2]
+        },
+        {
+          "name": "hugShake",
+          "offset": { "x": 0, "y": 4, "z": 8 },
+          "time": 0.066,
+          "repeat": true,
+          "frames": [2, 2],
+          "framesGfxOffset": [0, 0, 1, 0]
+        },
+        {
+          "name": "afraid",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3]
+        },
+        { "name": "grabbed", "time": 0.05, "repeat": true, "frames": [5] },
+        {
+          "name": "grabbedShake",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [5, 5],
+          "framesGfxOffset": [0, 0, 1, 0]
+        },
+        { "name": "slapFly", "time": 0.05, "repeat": true, "frames": [6] },
+        {
+          "name": "sitGroundSad1",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [7]
+        },
+        {
+          "name": "sitGroundSad2",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [8]
+        },
+        {
+          "name": "sitGroundSad3",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [9]
+        },
+        { "name": "crying", "time": 0.066, "repeat": true, "frames": [10, 11] },
+        {
+          "name": "cryingStill",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [10]
+        },
+        {
+          "name": "laughing",
+          "time": 0.0833,
+          "repeat": true,
+          "frames": [12, 13]
+        },
+        {
+          "name": "laughing2",
+          "time": 0.0833,
+          "repeat": true,
+          "frames": [14, 15]
+        },
+        { "name": "sitBlanket", "time": 0.1, "repeat": false, "frames": [16] },
+        {
+          "name": "sitBlanketSad",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [17]
+        },
+        {
+          "name": "lifted",
+          "offset": { "x": 0, "y": 4, "z": 8 },
+          "time": 0.066,
+          "repeat": true,
+          "frames": [18, 19]
+        },
+        {
+          "name": "sideFlooredShake",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [20, 20],
+          "framesGfxOffset": [1, 0, 0, 0]
+        },
+        { "name": "sideFloored", "time": 0.1, "repeat": false, "frames": [20] },
+        {
+          "name": "floored",
+          "offset": { "x": 0, "y": 0, "z": 0 },
+          "time": 0.1,
+          "repeat": false,
+          "frames": [21]
+        },
+        {
+          "name": "kneeShake",
+          "offset": { "x": 0, "y": -2, "z": 0 },
+          "time": 0.05,
+          "repeat": true,
+          "frames": [22, 22, 23, 24, 24, 23]
+        },
+        {
+          "name": "kneeShakeLong",
+          "offset": { "x": 0, "y": -2, "z": 0 },
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            22, 22, 23, 24, 24, 23, 22, 22, 23, 24, 24, 23, 22, 22, 23, 24, 24,
+            23, 22, 22, 23
+          ]
+        },
+        {
+          "name": "kneeStay",
+          "offset": { "x": 0, "y": -2, "z": 0 },
+          "time": 0.2,
+          "repeat": false,
+          "frames": [23]
+        },
+        {
+          "name": "kneeWhy",
+          "offset": { "x": 0, "y": -2, "z": 0 },
+          "time": 0.2,
+          "repeat": false,
+          "frames": [25, 26]
+        }
+      ]
+    },
+    {
+      "sheet": "sidePoses2",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "handshakeConfused",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [0]
+        },
+        {
+          "name": "handshakePre",
+          "time": 0.15,
+          "repeat": false,
+          "frames": [1]
+        },
+        {
+          "name": "handshake",
+          "time": 0.15,
+          "repeat": false,
+          "frames": [2, 3, 2, 3, 2]
+        },
+        {
+          "name": "handshakePost",
+          "time": 0.15,
+          "repeat": false,
+          "frames": [1]
+        },
+        {
+          "name": "caramelldansen",
+          "time": 0.15,
+          "repeat": true,
+          "frames": [4, 5, 6, 4, 5, 6],
+          "framesFlipX": [0, 0, 0, 1, 1, 1]
+        }
+      ]
+    },
+    {
+      "sheet": "sleepPoses",
+      "dirs": "2",
+      "flipX": [1, 0],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        { "name": "sleep", "time": 0.1333, "repeat": false, "frames": [0] },
+        {
+          "name": "sleepAwake",
+          "time": 0.1333,
+          "repeat": false,
+          "frames": [1]
+        },
+        {
+          "name": "sleepGetUp",
+          "time": 0.133,
+          "repeat": false,
+          "frames": [2, 3, 4, 5]
+        },
+        { "name": "sleepUp", "time": 0.133, "repeat": false, "frames": [5] },
+        { "name": "hitGround", "time": 0.133, "repeat": false, "frames": [6] },
+        { "name": "hitGetUp1", "time": 0.2, "repeat": false, "frames": [7, 8] },
+        {
+          "name": "hitGetUp2",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [9, 10, 11]
+        }
+      ]
+    },
+    {
+      "sheet": "sleepPoses2",
+      "dirs": "2",
+      "flipX": [1, 0],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "seizure",
+          "time": 0.066,
+          "repeat": true,
+          "frames": [0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "sheet": "drill",
+      "dirs": "1",
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        { "name": "drill", "time": 0.016, "repeat": true, "frames": [0, 1, 2] }
+      ]
+    },
+    {
+      "sheet": "drillSide",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        {
+          "name": "drillSide",
+          "time": 0.016,
+          "repeat": true,
+          "frames": [0, 1, 2]
+        }
+      ]
+    }
+  ]
+}
+

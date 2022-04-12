@@ -1,6 +1,8 @@
 # CC-Alternate-Lea
 Color swap and modification of Lea's outfit(sprites, portrait, inventory) for CrossCode.
 
-Install: Drop the "Alternate Lea" folder and all its contents in your Crosscode folder/assets/mods
+##Install: Download the code and uncompress it in it's own folder inside `assets/mods`
 
-ccloader required to use any mods for Crosscode
+##Dependencies:
+	CCLoader: Mod loader for CrossCode
+	item-api (>= 4.1.0): Required to have the skin available on the Add-Ons tab.
