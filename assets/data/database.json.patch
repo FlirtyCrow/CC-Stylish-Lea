@@ -12,6 +12,16 @@
       "settings": {
 				"noHide": true,
         "sheet": "player-skins.stylish-lea",
+        "gui": "stylish-lea.png",
+				"guiBounds": {
+					"face": {
+						"x": 44,
+						"y": 45,
+						"w": 60,
+						"h": 34
+					}
+				},
+				"character": "main.stylish-lea",
 				"anims": {
 					"player": "player-skins.stylish-lea",
 					"player-hugging": "player-skins.stylish-lea-hugging",
@@ -20,9 +30,7 @@
 					"player-sleeping": "player-skins.stylish-lea-sleeping",
 					"player-weak": "player-skins.stylish-lea-weak",
           "npc.captain": "npc.stylish-lea-captain"
-				},
-        "gui": "stylish-lea.png",
-				"character": "main.stylish-lea"
+				}
       }
     }
   },
