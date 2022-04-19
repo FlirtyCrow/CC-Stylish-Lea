@@ -6,7 +6,7 @@
     "index": "stylish-lea",
     "content": {
       "id": "stylish-lea",
-      "item": "stylish-lea",
+      "item": 10001,
       "autoAdd": true,
       "type": "Appearance",
       "settings": {
@@ -29,7 +29,16 @@
 					"player-poses-debug": "player-skins.stylish-lea-poses-debug",
 					"player-sleeping": "player-skins.stylish-lea-sleeping",
 					"player-weak": "player-skins.stylish-lea-weak",
+					"shizuka-poses": "player-skins.stylish-lea-shizuka-poses",
           "npc.captain": "npc.stylish-lea-captain"
+				},
+				"img": {
+					"media/map/baked/lea-bakii-kum.png": "media/map/baked/stylish-lea-bakii-kum.png",
+					"media/map/baked/lea-ctron-bakii-kum.png": "media/map/baked/stylish-lea-ctron-bakii-kum.png",
+					"media/map/baked/lea-server.png": "media/map/baked/stylish-lea-server.png",
+					"media/map/baked/the-room-conversation-clear.png": "media/map/baked/stylish-lea-the-room-conversation-clear.png",
+					"media/map/baked/the-room-conversation-shelf.png": "media/map/baked/stylish-lea-the-room-conversation-shelf.png",
+					"media/map/baked/tree-top-ctron.png": "media/map/baked/stylish-lea-tree-top-ctron.png"
 				}
       }
     }

@@ -1,0 +1,157 @@
+{
+  "DOCTYPE": "MULTI_DIR_ANIMATION",
+  "namedSheets": {
+    "poses": {
+      "src": "media/entity/player/stylish-lea-poses-shizuka.png",
+      "offX": 0,
+      "offY": 0,
+      "width": 32,
+      "height": 32
+    },
+    "poses2": {
+      "src": "media/entity/player/stylish-lea-poses-shizuka.png",
+      "offX": 96,
+      "offY": 96,
+      "width": 32,
+      "height": 32
+    },
+    "leaPetting": {
+      "src": "media/entity/player/stylish-lea-poses-shizuka.png",
+      "offX": 0,
+      "offY": 224,
+      "width": 40,
+      "height": 32
+    }
+  },
+  "shapeType": "Y_FLAT",
+  "offset": { "x": 0, "y": -4, "z": 0 },
+  "SUB": [
+    {
+      "sheet": "poses",
+      "dirs": 1,
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        { "name": "preSlap", "time": 0.1, "repeat": false, "frames": [0] },
+        { "name": "slap", "time": 0.1, "repeat": false, "frames": [1, 2, 3] },
+        {
+          "name": "angry",
+          "time": 0.05,
+          "repeat": true,
+          "frames": [5, 4, 5, 5, 5, 5, 5, 5, 5, 5]
+        }
+      ]
+    },
+    {
+      "sheet": "poses",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        { "name": "angryDiag", "time": 0.05, "repeat": true, "frames": [6] },
+        {
+          "sheet": "poses",
+          "dirs": "2",
+          "flipX": [1, 0],
+          "tileOffsets": [8, 8],
+          "SUB": [
+            { "name": "grab", "time": 0.05, "repeat": false, "frames": [0] },
+            {
+              "name": "grabShake",
+              "time": 0.05,
+              "repeat": true,
+              "frames": [0, 0],
+              "framesGfxOffset": [1, 0, 0, 0]
+            },
+            {
+              "name": "preMegaSlap",
+              "time": 0.05,
+              "repeat": false,
+              "frames": [1]
+            },
+            {
+              "name": "megaSlap",
+              "time": 0.066,
+              "repeat": false,
+              "frames": [2, 3, 4, 4, 5]
+            },
+            {
+              "name": "postMegaSlap",
+              "time": 0.2,
+              "repeat": false,
+              "frames": [6, 7, 8, 9]
+            },
+            { "name": "sitSad", "time": 0.2, "repeat": false, "frames": [10] },
+            {
+              "name": "sitGround",
+              "time": 0.2,
+              "repeat": false,
+              "frames": [11]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "poses",
+      "dirs": "1",
+      "flipX": [0],
+      "tileOffsets": [8],
+      "SUB": [
+        { "name": "sitDown", "time": 0.2, "repeat": false, "frames": [12] },
+        {
+          "name": "sitDownFaceRight",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [13]
+        },
+        {
+          "name": "sitDownFaceLeft",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [14]
+        },
+        { "name": "sitDownSad", "time": 0.2, "repeat": false, "frames": [15] },
+        {
+          "name": "fallOnKnees",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [16, 17, 18]
+        }
+      ]
+    },
+    {
+      "sheet": "poses2",
+      "dirs": "2",
+      "flipX": [0, 1],
+      "tileOffsets": [0, 0],
+      "SUB": [
+        { "name": "sit", "time": 0.05, "repeat": true, "frames": [0] },
+        { "name": "sitLookBack", "time": 0.05, "repeat": true, "frames": [1] }
+      ]
+    },
+    {
+      "offset": { "x": -11, "y": -4, "z": 0 },
+      "sheet": "leaPetting",
+      "dirs": "1",
+      "flipX": [0],
+      "tileOffsets": [0],
+      "SUB": [
+        {
+          "name": "leaPettingPre",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [0]
+        },
+        { "name": "leaPetting", "time": 0.2, "repeat": true, "frames": [1, 2] },
+        {
+          "name": "leaPettingReject",
+          "time": 0.2,
+          "repeat": false,
+          "frames": [3]
+        }
+      ]
+    }
+  ]
+}
+
