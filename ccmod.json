@@ -1,6 +1,6 @@
 {
   "id": "stylish-lea",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "title": "Stylish Lea",
   "description": "Alternative Skin for Lea based on Emilie costume",
   "icons": {
@@ -8,5 +8,41 @@
   },
   "dependencies": {
     "item-api": ">=0.4.1"
-  }
+  },
+  "assets": [
+    "media/map/baked/styled-lea-bakii-kum.png",
+    "media/map/baked/styled-lea-server.png",
+    "media/map/baked/styled-lea-tree-top-ctron.png",
+    "media/map/baked/styled-lea-the-room-conversation-shelf.png",
+    "media/map/baked/styled-lea-the-room-conversation-clear.png",
+    "media/map/baked/styled-lea-ctron-bakii-kum.png",
+    "media/entity/npc/stylish-lea-captain.png",
+    "media/entity/player/stylish-lea-poses-debug.png",
+    "media/entity/player/stylish-lea-throw.png",
+    "media/entity/player/stylish-lea-poses.png",
+    "media/entity/player/stylish-lea-move.png",
+    "media/entity/player/styled-lea-poses-shizuka.png",
+    "media/entity/player/stylish-lea-sleeping.png",
+    "media/entity/player/stylish-lea-special.png",
+    "media/entity/player/stylish-lea-move-weak.png",
+    "media/entity/player/stylish-lea-hugging.png",
+    "media/gui/skins/stylish-lea.png",
+    "media/face/stylish-lea.png",
+    "media/face/stylish-lea-panic.png",
+    "media/face/stylish-lea-hand.png",
+    "media/face/stylish-lea-special.png",
+    "data/database.json.patch",
+    "data/animations/npc/stylish-lea-captain.json",
+    "data/animations/player-skins/stylish-lea-shizuka-poses.json",
+    "data/animations/player-skins/stylish-lea-sleeping.json",
+    "data/animations/player-skins/stylish-lea-weak.json",
+    "data/animations/player-skins/stylish-lea-hugging.json",
+    "data/animations/player-skins/stylish-lea-poses-debug.json",
+    "data/animations/player-skins/stylish-lea-poses.json",
+    "data/animations/player-skins/stylish-lea.json",
+    "data/item-database.json.patch",
+    "data/effects/skins/skin-mod-template.json",
+    "data/characters/main/stylish-lea.json.patch",
+    "data/characters/main/stylish-lea.json"
+  ]
 }
